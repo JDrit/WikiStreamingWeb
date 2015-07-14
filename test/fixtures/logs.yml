@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  channel: MyString
+  page: MyString
+  diff: MyString
+  username: MyString
+  timestamp: 2015-07-13 18:52:50
+
+two:
+  channel: MyString
+  page: MyString
+  diff: MyString
+  username: MyString
+  timestamp: 2015-07-13 18:52:50
