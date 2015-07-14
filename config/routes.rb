@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   match 'subdomain/:subdomain', to: 'stats#channel', via: 'get', constraints: { :subdomain => /[\w+\.]+/ }
 
   match 'api/page_edits/:subdomain', to: 'api#page_edits', via: 'get', constraints: { :subdomain => /[^\/]+/ }
+  match 'api/page_edits_update/:subdomain', to: 'api#page_edits_update', via: 'get', constraints: { :subdomain => /[^\/]+/ }
 
 
   # The priority is based upon order of creation: first created -> highest priority.

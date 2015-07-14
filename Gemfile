@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.3'
 gem 'pg', '~> 0.18.2'
 gem 'highstock-rails', '~> 1.3.10'
-
+gem 'bootstrap-sass', '~> 3.3.5.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
